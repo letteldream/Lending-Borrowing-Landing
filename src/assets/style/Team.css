@@ -1,0 +1,115 @@
+.title_ {
+  font-size: 64px;
+  font-weight: 800;
+  font-family: PP Neue Machina;
+  color: white;
+  font-style: normal;
+}
+
+.sub_title_ {
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+}
+
+.trans-div {
+  width: 80%;
+  height: auto;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  border: 1px solid white;
+  align-items: center;
+}
+
+.trans-title {
+  font-size: 48px;
+  color: white;
+  font-family: PP Neue Machina;
+}
+
+.trans-btn {
+  width: 200px;
+  height: 45px;
+  border-radius: 32px;
+  background: #1c64f2;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.grid {
+  justify-content: center;
+  text-align: center;
+}
+
+.icon-div {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .title_ {
+    font-size: 34px;
+    font-weight: 800;
+    font-family: PP Neue Machina;
+    color: white;
+    font-style: normal;
+  }
+
+  .sub_title_ {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-top: 2rem;
+  }
+
+  .trans-div {
+    width: 100%;
+    height: auto;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    border: 1px solid white;
+    align-items: center;
+    display: block;
+  }
+
+  .trans-title {
+    font-size: 2rem;
+    color: white;
+    font-family: PP Neue Machina;
+  }
+
+  .trans-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+
+  .trans-btn {
+    width: auto;
+    height: 60px;
+    border-radius: 32px;
+    background: #1c64f2;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 1px 4rem;
+  }
+
+  .grid-4-card {
+    margin-top: 4rem;
+  }
+
+  .tran-subtitle {
+    color: white;
+    margin-top: 1rem;
+  }
+
+  .grid-card {
+    margin-top: 3rem;
+  }
+}/*# sourceMappingURL=Team.css.map */

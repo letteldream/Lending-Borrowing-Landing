@@ -1,0 +1,478 @@
+.sec-1 {
+  width: auto;
+  height: auto;
+  padding: 8%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec-1-info {
+  div {
+    justify-content: left;
+    text-align: start;
+  }
+}
+
+.sec-1-title {
+  font-size: 64px;
+  font-weight: 800;
+  font-family: PP Neue Machina;
+  color: white;
+  font-style: normal;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+.grid-1 {
+  width: 70%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  justify-content: left;
+  align-items: start;
+}
+
+.grid-4-card {
+  justify-content: left;
+  align-items: start;
+  text-align: left;
+  background: #fff;
+  border-radius: 25px;
+  padding: 10%;
+  height: auto;
+  min-height: 55vh;
+}
+
+.card-4-heading {
+  font-size: 24px;
+  color: black;
+  font-family: Inter;
+  font-weight: 700;
+}
+
+.card-1-description {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  justify-content: left;
+  align-items: start;
+}
+
+.card-1-sec-description {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  justify-content: left;
+  align-items: start;
+}
+
+.sec-2 {
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0% 10%;
+}
+
+.sec-2-title {
+  font-size: 64px;
+  color: white;
+  font-weight: 800;
+  font-family: PP Neue Machina;
+}
+
+.sec-2-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  font-family: Inter;
+}
+
+.sec-2-grid {
+  width: 70%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  justify-content: left;
+  align-items: start;
+}
+
+.sec-2-card {
+  justify-content: left;
+  align-items: start;
+  text-align: left;
+}
+
+.grid-2-title {
+  font-size: 30px;
+  color: white;
+  font-family: Inter;
+  font-weight: 700;
+}
+
+.grid-2-subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  justify-content: left;
+  align-items: start;
+}
+
+.sec-3 {
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4% 8%;
+}
+
+.sec-3-title {
+  font-size: 64px;
+  color: white;
+  font-family: PP Neue Machina;
+  font-weight: 800;
+}
+
+.sec-3-grid {
+  width: 65%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  justify-content: left;
+  align-items: start;
+}
+
+.grid-3-card {
+  justify-content: left;
+  align-items: start;
+  text-align: left;
+  background: #fff;
+  border-radius: 25px;
+  padding: 5%;
+  height: 20rem;
+}
+
+.card-3-title {
+  font-size: 24px;
+  color: black;
+  font-family: Inter;
+  font-weight: 700;
+  margin-top: 1vw;
+}
+
+.card-3-subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  justify-content: left;
+  align-items: start;
+  margin-top: 1vw;
+}
+
+.sec-4 {
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4% 8%;
+}
+
+.sec-4-heading {
+  font-size: 64px;
+  color: white;
+  font-family: PP Neue Machina;
+  font-weight: 800;
+}
+
+.sec-4-subheading {
+  font-family: Inter;
+  font-size: 24px;
+  color: white;
+}
+
+.trans-div {
+  width: 60%;
+  height: auto;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  border: 1px solid white;
+  align-items: center;
+}
+
+.trans-title {
+  font-size: 48px;
+  color: white;
+  font-family: PP Neue Machina;
+}
+
+.trans-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.trans-work-btn {
+  width: 232px;
+  height: 60px;
+  border-radius: 32px;
+  background: #fafafa;
+  color: black;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .sec-1 {
+    width: auto;
+    height: auto;
+    padding: 8%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15% 10%;
+  }
+
+  .sec-1-info {
+    div {
+      justify-content: left;
+      text-align: start;
+    }
+  }
+
+  .sec-1-title {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: PP Neue Machina;
+    color: white;
+    font-style: normal;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+  }
+  .sec-1-grid {
+    width: 80% !important;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    justify-content: left;
+    align-items: start;
+    display: block !important;
+  }
+
+  .grid-1-card {
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .card-1-ic {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .card-1-description {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    justify-content: left;
+    align-items: start;
+  }
+
+  .card-1-sec-description {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    justify-content: left;
+    align-items: start;
+  }
+
+  .sec-2 {
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2% 2%;
+  }
+
+  .sec-2-title {
+    font-size: 48px;
+    color: white;
+    font-weight: 800;
+    font-family: PP Neue Machina;
+  }
+
+  .sec-2-subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    font-family: Inter;
+  }
+
+  .sec-2-grid {
+    width: 90%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    justify-content: left;
+    align-items: start;
+  }
+
+  .sec-2-card {
+    justify-content: left;
+    align-items: start;
+    text-align: left;
+    margin-top: 3rem;
+  }
+
+  .grid-2-tile {
+    font-size: 30px;
+    color: white;
+    font-family: Inter;
+    font-weight: 700;
+  }
+
+  .grid-2-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    justify-content: left;
+    align-items: start;
+  }
+
+  .sec-3 {
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4% 8%;
+  }
+
+  .sec-3-title {
+    font-size: 48px;
+    color: white;
+    font-family: PP Neue Machina;
+    font-weight: 800;
+  }
+
+  .sec-3-grid {
+    width: 90%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    justify-content: left;
+    align-items: start;
+  }
+
+  .grid-3-card {
+    justify-content: left;
+    align-items: start;
+    text-align: left;
+    background: #fff;
+    border-radius: 25px;
+    padding: 5%;
+    height: 20rem;
+    margin-top: 3rem;
+  }
+
+  .card-3-title {
+    font-size: 24px;
+    color: black;
+    font-family: Inter;
+    font-weight: 700;
+    margin-top: 1vw;
+  }
+
+  .card-3-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    justify-content: left;
+    align-items: start;
+    margin-top: 1vw;
+  }
+
+  .sec-4 {
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4% 8%;
+  }
+
+  .sec-4-heading {
+    font-size: 48px;
+    color: white;
+    font-family: PP Neue Machina;
+    font-weight: 800;
+  }
+
+  .sec-4-subheading {
+    font-family: Inter;
+    font-size: 24px;
+    color: white;
+  }
+
+  .grid-4-card {
+    justify-content: left;
+    align-items: start;
+    text-align: left;
+    background: #fff;
+    border-radius: 25px;
+    padding: 10%;
+    height: auto;
+    min-height: 55vh;
+  }
+
+  .card-4-heading {
+    font-size: 24px;
+    color: black;
+    font-family: Inter;
+    font-weight: 700;
+  }
+
+  .trans-div {
+    width: 60%;
+    height: auto;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    border: 1px solid white;
+    align-items: center;
+    display: block;
+  }
+
+  .trans-title {
+    font-size: 2rem;
+    color: white;
+    font-family: PP Neue Machina;
+  }
+
+  .trans-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+
+  .trans-work-btn {
+    width: 150px;
+    height: 60px;
+    border-radius: 32px;
+    background: #fafafa;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .grid-4-card {
+    margin-top: 4rem;
+  }
+
+  .tran-subtitle {
+    color: white;
+    margin-top: 1rem;
+  }
+}

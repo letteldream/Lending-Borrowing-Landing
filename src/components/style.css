@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "pp neue machina";
+  src: local("pp neue machina"),
+    url("./../assets/font.ttf") format("truetype");
+  font-weight: bold;
+}
+.font-pp{
+    font-family: "pp neue machina";
+}
