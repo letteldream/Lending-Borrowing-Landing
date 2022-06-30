@@ -3,13 +3,11 @@ import screenshot from "./../assets/screenshot.png";
 import IC1 from "./../assets/ic_1.png";
 import IC2 from "./../assets/ic_2.png";
 import IC3 from "./../assets/ic_3.png";
-import logo from "./../assets/logo.png";
 import logo2 from "./../assets/logo2.png";
 import Footer from "./Footer";
 import "./style.css";
 import "./../assets/style/Home.css";
 import Background from "./../assets/home.png";
-import Background2 from "./../assets/home-bg-2.png";
 
 export default function Home() {
   const details_data = [
@@ -350,7 +348,6 @@ export default function Home() {
             </div>
             <div className="svg_style">
               <svg
-                className="arrow_svg"
                 style={{
                   color: "white",
                 }}
@@ -358,11 +355,11 @@ export default function Home() {
                 width="120"
                 height="120"
                 fill="currentColor"
-                className="bi bi-chevron-right"
+                className="bi bi-chevron-right arrow_svg"
                 viewBox="0 0 16 16"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
                 />
               </svg>
@@ -385,7 +382,6 @@ export default function Home() {
             </div>
             <div className="svg_style">
               <svg
-                className="arrow_svg"
                 style={{
                   display: "inline",
                   color: "white",
@@ -394,11 +390,11 @@ export default function Home() {
                 width="120"
                 height="120"
                 fill="currentColor"
-                className="bi bi-chevron-right"
+                className="bi bi-chevron-right arrow_svg"
                 viewBox="0 0 16 16"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
                 />
               </svg>

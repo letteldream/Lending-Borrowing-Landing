@@ -1,12 +1,10 @@
-import { Link } from "react-router-dom";
 import logo from "./../assets/bottom_logo-removebg-preview.png";
-import twitter from "./../assets/twitter.png";
 import "./../assets/style/Footer.css";
 
 export default function Footer() {
   return (
     <>
-      <div className="footer" >
+      <div className="footer">
         {/* Left */}
         <div className="left w-auto flex flex-col md:flex-row">
           <img
@@ -42,8 +40,8 @@ export default function Footer() {
         </div>
 
         {/* Right */}
-        <div className="w-full" >
-          <div className="svg_group" >
+        <div className="w-full">
+          <div className="svg_group">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"

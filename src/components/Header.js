@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "./../assets/logo.png";
 import "./../assets/style/Header.css";
@@ -50,7 +50,7 @@ export default function Header() {
         {/* Left */}
         <Link className="left flex" to="/">
           <div className="logo mr-8">
-            <img src={logo} />
+            <img src={logo} alt="" />
           </div>
           <div className="company_name">
             <p
@@ -83,7 +83,7 @@ export default function Header() {
                     className={
                       location.pathname === item.pathname
                         ? "underline"
-                        : "" + " hover:underline"
+                        : "hover:underline"
                     }
                     key={item.id}
                     to={`${item.pathname}`}
@@ -137,7 +137,7 @@ export default function Header() {
                 viewBox="0 0 16 16"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
                 />
               </svg>
@@ -178,7 +178,7 @@ export default function Header() {
             {/* Left */}
             <Link className="left flex" to="/">
               <div className="logo mr-8">
-                <img src={logo} />
+                <img src={logo} alt="" />
               </div>
               <div className="company_name">
                 <p
@@ -216,7 +216,7 @@ export default function Header() {
                     viewBox="0 0 16 16"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
                     />
                   </svg>
@@ -246,7 +246,9 @@ export default function Header() {
 
         {/*  */}
         <div
-          className={`bottom flex p-4 justify-between w-3/5 text-white ${open === true? "" : "hidden"}`}
+          className={`bottom flex p-4 justify-between w-3/5 text-white ${
+            open === true ? "" : "hidden"
+          }`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -301,7 +303,7 @@ export default function Header() {
             background: "#fff",
             margin: "1rem",
           }}
-          className={`${open === true? "" : "hidden"}`}
+          className={`${open === true ? "" : "hidden"}`}
         ></div>
         <div
           style={{
@@ -311,7 +313,7 @@ export default function Header() {
           }}
         >
           <p
-            className={`text-white t-tra ${open === true? "" : "hidden"}`}
+            className={`text-white t-tra ${open === true ? "" : "hidden"}`}
             style={{
               textTransform: "uppercase",
             }}
@@ -319,7 +321,7 @@ export default function Header() {
             © 2021, AIRA PROTOCOL. All Rights Reserved.
           </p>
           <p
-            className={`text-white mt-3 ${open === true? "" : "hidden"}`}
+            className={`text-white mt-3 ${open === true ? "" : "hidden"}`}
             style={{
               textTransform: "uppercase",
             }}
