@@ -355,7 +355,8 @@ export default function Home() {
                 width="120"
                 height="120"
                 fill="currentColor"
-                className="bi bi-chevron-right arrow_svg"
+                // className="arrow_svg"
+                className="bi bi-chevron-right"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -390,7 +391,8 @@ export default function Home() {
                 width="120"
                 height="120"
                 fill="currentColor"
-                className="bi bi-chevron-right arrow_svg"
+                // className="arrow_svg"
+                className="bi bi-chevron-right"
                 viewBox="0 0 16 16"
               >
                 <path
