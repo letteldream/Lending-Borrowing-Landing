@@ -247,9 +247,6 @@ export default function Header() {
         {/*  */}
         <div
           className={`bottom flex p-4 justify-between w-3/5 text-white ${open === true? "" : "hidden"}`}
-          style={{
-            marginTop: "30vh",
-          }}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
