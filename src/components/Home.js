@@ -358,7 +358,7 @@ export default function Home() {
                 width="120"
                 height="120"
                 fill="currentColor"
-                class="bi bi-chevron-right"
+                className="bi bi-chevron-right"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -394,7 +394,7 @@ export default function Home() {
                 width="120"
                 height="120"
                 fill="currentColor"
-                class="bi bi-chevron-right"
+                className="bi bi-chevron-right"
                 viewBox="0 0 16 16"
               >
                 <path
